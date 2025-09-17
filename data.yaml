@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Human', 'arvore', 'buraco', 'cadeira', 'carro', 'escada', 'faixa de pedestre', 'mesa', 'semaforo pedestre', 'sofa']
+
+roboflow:
+  workspace: amanda-ow7bi
+  project: multiplos-objetos-2-23osn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amanda-ow7bi/multiplos-objetos-2-23osn/dataset/3
