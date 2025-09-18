@@ -17,7 +17,7 @@ Reunimos imagens nossas e dos usuários para o treino e teste. Ao realizar todas
 
 Em um ambiente preparado (Colab Notebook) rodamos 60 épocas do nosso modelo. Ao terminar o treinamento fazemos a extração do arquivo best.py no caminho indicado no final do treino.
 
-O ``arquivo best.pt`` é a nossa inteligência, onde nosso modelo treinado está e o responsável pela nossa detectação.
+O arquivo ``best.pt`` é a nossa inteligência, onde nosso modelo treinado está e o responsável pela nossa detectação.
 
 3. Código Python
 
@@ -31,7 +31,7 @@ O código ``yolo.py`` é onde capturamos os frames em tempo real através da web
     ```
 2.  **Instale as dependências para o modelo:**
     ```bash
-    pip install opencv-python pyttsx3 numpy ultralytics time threading
+    pip install opencv-python ultralytics numpy pyttsx3
     ```
 3.  **Execute o programa principal:**
     ```bash
