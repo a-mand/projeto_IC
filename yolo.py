@@ -37,10 +37,12 @@ def falar_alerta(texto):
 model = YOLO('best.pt')
 
 # Definir a URL RTSP
-rtsp_url = "rtsp://admin:P5EB3N89@192.168.137.159:554/cam/realmonitor?channel=1&subtype=0"
+#rtsp_url = "rtsp://admin:P5EB3N89@192.168.137.159:554/cam/realmonitor?channel=1&subtype=0"
 
 # Criar o objeto de captura de vídeo
-cap = cv2.VideoCapture(rtsp_url, cv2.CAP_FFMPEG)
+#cap = cv2.VideoCapture(rtsp_url, cv2.CAP_FFMPEG) # Use esta linha para RTSP
+
+cap = cv2.VideoCapture(0)  # Use a webcam local para testes
 
 if not cap.isOpened():
     print("Erro: Não foi possível conectar ao stream. Verifique a URL.")
