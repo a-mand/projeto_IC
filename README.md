@@ -38,14 +38,10 @@ O código ``yolo.py`` é onde capturamos os frames em tempo real através da web
     python yolo.py
     ```
     Preferível rodá-lo dentro de um ambiente python.
-## Explicações dos Resultados
-
 
 ## Estrutura do Repositório
 * `images_test`: Contém imagens com as previsões do modelo.
 *  `train`, `test` e `valid`: Pastas contendo o dataset da equipe.
-* `Relatório/`: Pasta contendo o relatório acadêmico e suas figuras geradas.
-    * `Relatório/Figuras/`: Contém as imagens dos gráficos e saídas do console para as questões resolvidas.
 * `data.yaml`: Arquivo com os caminhos e classes, usando para guiar o modelo para o dataset no treinamento.
 * `yolo.py`: Arquivo responsável pela conexão com a câmera e pelo sistema de áudio.
 * `projeto_IC.ipybn`: Arquivo onde está disponivel o código do treino com o nosso dataset do modelo pré-treinado do Roboflow
